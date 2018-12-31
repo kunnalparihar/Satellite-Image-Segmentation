@@ -9,7 +9,8 @@ We have implemented a satellite image classification technique for satellite ima
 As AutoEncoders are useful for noise filtering.Our UNet-model’s output has noise in it and and also classes that disconnected. Our KV-Net model uses this feature of autoencoders to reconnect the disconnected roads, railways,waters, and etc. which are mostly never disconnected in practice.
 
 
-![alt text](https://github.com/kunnalparihar/Satellite-Image-Segmentation/KVin.jpg)
+![alt text](https://raw.githubusercontent.com/kunnalparihar/Satellite-Image-Segmentation/master/KVin.jpg)
+![alt text](https://raw.githubusercontent.com/kunnalparihar/Satellite-Image-Segmentation/master/KVout.jpg)
       
 ## Libraries
 
