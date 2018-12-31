@@ -4,7 +4,8 @@ Satellite images are one of the most powerful and important tools used by the me
 They are essentially the eyes in the sky . Today advances in remote sensing technologies have made it possible to capture imagery with resolutions as high as 0.41 metres on earth.
 Today’s satellites have the power to ‘see’ and distinguish objects that are as little as 16 inches apart from one another on the ground. 
 We have implemented a satellite image classification technique for satellite imagery that classify 8 eight classes namely Water, Grass ,Roads , Building , Trees , Swimming pool , Railway and Bare Soil.
-
+### Input satellite image
+![Input](https://raw.githubusercontent.com/kunnalparihar/Satellite-Image-Segmentation/master/satelliteimg.png)
 ## KV Net
 As AutoEncoders are useful for noise filtering.Our UNet-model’s output has noise in it and and also classes that disconnected. Our KV-Net model uses this feature of autoencoders to reconnect the disconnected roads, railways,waters, and etc. which are mostly never disconnected in practice.
 
@@ -71,4 +72,4 @@ python3 predict2.py
 python3 predict_kvnet.py
 
 
-By - Kunal Parihar , Vivasvan Patel
+### By - Kunal Parihar , Vivasvan Patel
