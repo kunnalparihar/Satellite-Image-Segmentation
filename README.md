@@ -7,8 +7,7 @@ We have implemented a satellite image classification technique for satellite ima
 
 As AutoEncoders are useful for noise filtering.Our UNet-model’s output has noise in it and and also classes that disconnected. Our KV-Net model uses this feature of autoencoders to reconnect the disconnected roads, railways,waters, and etc. which are mostly never disconnected in practice.
 
-
-You need the following libraries
+## libraries
 
 cv2
 
@@ -25,7 +24,7 @@ glob
 
 We have implemented a satellite image classification technique for satellite imagery that classify 8 eight classes namely Water, Grass ,Roads , Building , Trees , Swimming pool , Railway and Bare Soil.
 
-To run the code
+## To run the code
 
 put you sat images in data/sat5band/ folder
 
@@ -46,8 +45,6 @@ python3 train_unet.py              # this will begin the training of unet model
 
 
 python3 train_kvnet.py             # Training of KV_Net
-
-# generate test input data also as shown above. 
 
 
 python3 predict_kvnet.py           # Output will be stored in ./outputs/ of data/test/
