@@ -5,7 +5,7 @@ They are essentially the eyes in the sky . Today advances in remote sensing tech
 Today’s satellites have the power to ‘see’ and distinguish objects that are as little as 16 inches apart from one another on the ground. 
 We have implemented a satellite image classification technique for satellite imagery that classify 8 eight classes namely Water, Grass ,Roads , Building , Trees , Swimming pool , Railway and Bare Soil.
 
-# KV Net
+## KV Net
 As AutoEncoders are useful for noise filtering.Our UNet-model’s output has noise in it and and also classes that disconnected. Our KV-Net model uses this feature of autoencoders to reconnect the disconnected roads, railways,waters, and etc. which are mostly never disconnected in practice.
 
 ## Libraries
